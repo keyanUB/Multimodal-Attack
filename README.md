@@ -9,7 +9,10 @@ They python version may also cause issue, the python version we are using is Pyt
 pip install jsonlines torch==1.6.0 torchvision==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
-Please cd into the mmf directory and run the follow command to set up the environment
+Please cd into the mmf directory and run the following command to set up the environment
+```c
+cd Multimodal-Attack/mmf
+```
 ```python
 pip install --editable .
 ```
