@@ -62,7 +62,8 @@ for d in data:
   success, points, success_points, fool_label = pointwise_occlusion_combination(C_i, C_t, img_path, image, model, text, z, pred_label)
 
   json_obj = {'img_name': img_path, 'text': text, 'tgt': pred_label,'is_img_important': is_img_important, 'success': success, 'points': points, 'success_point': success_points, 'fool_label': fool_label}
-
+  print("The result is:")
+  print(json_obj)
   print('-' * 50) 
 
   count += 1
